@@ -1,0 +1,467 @@
+document,Statement,itemname,value,memberstring1,instant,StartDate,EndDate
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccountsPayable,20965,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccountsPayable,25786,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccountsPayable,46751,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccountsPayable,10650,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccountsPayable,15136,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccountsPayable,25786,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,AccountsPayableModifiedAccrual,6960,GeneralFund,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,AccountsPayableModifiedAccrual,14005,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,AccountsPayableModifiedAccrual,20965,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccountsReceivable,8173,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccountsReceivable,9153,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccountsReceivable,17326,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,AccountsReceivableModifiedAccrual,8908,GeneralFund,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,AccountsReceivableModifiedAccrual,8908,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccountsReceivableNetOfAllowance,8908,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccountsReceivableNetOfAllowance,17326,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccountsReceivableNetOfAllowance,26234,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccruedLiabilities,3016,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccruedLiabilities,226,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccruedLiabilities,3242,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccruedLiabilities,113,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccruedLiabilities,113,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccruedLiabilities,226,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,AccruedLiabilitiesModifiedAccrual,3016,GeneralFund,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,AccruedLiabilitiesModifiedAccrual,3016,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,462641,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,462641,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,462641,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,1585682,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,1585682,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,1585682,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,330787,BuildingsAndImprovements,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccumulatedDepreciation,330787,BuildingsAndImprovements,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,330787,BuildingsAndImprovements,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,330787,BuildingsAndImprovements,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,337508,BuildingsAndImprovements,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccumulatedDepreciation,337508,BuildingsAndImprovements,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,337508,BuildingsAndImprovements,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,337508,BuildingsAndImprovements,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,93808,Equipment,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccumulatedDepreciation,93808,Equipment,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,93808,Equipment,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,93808,Equipment,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,98491,Equipment,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccumulatedDepreciation,98491,Equipment,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,98491,Equipment,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,98491,Equipment,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,15036,Infrastructure,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccumulatedDepreciation,15036,Infrastructure,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,15036,Infrastructure,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,15036,Infrastructure,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,26742,Infrastructure,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccumulatedDepreciation,26742,Infrastructure,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,26742,Infrastructure,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,26742,Infrastructure,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,439631,GovernmentalActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,439631,GovernmentalActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,439631,GovernmentalActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,1541131,SewageSystem,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccumulatedDepreciation,1541131,SewageSystem,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,1541131,SewageSystem,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,1541131,SewageSystem,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,1572218,SewageSystem,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccumulatedDepreciation,1572218,SewageSystem,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,1572218,SewageSystem,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,1572218,SewageSystem,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,13464,Equipment,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccumulatedDepreciation,13464,Equipment,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,13464,Equipment,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,13464,Equipment,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,13464,Equipment,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,AccumulatedDepreciation,13464,Equipment,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,13464,Equipment,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,13464,Equipment,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,AccumulatedDepreciation,1554595,BusinessTypeActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,1554595,BusinessTypeActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AccumulatedDepreciation,1554595,BusinessTypeActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToAccumulatedDepreciation,23848,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToAccumulatedDepreciation,31087,BusinessTypeActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToAccumulatedDepreciation,6621,BuildingsAndImprovements,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToAccumulatedDepreciation,5521,Equipment,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToAccumulatedDepreciation,11706,Infrastructure,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToAccumulatedDepreciation,31087,SewageSystem,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToCapitalAssetsAtHistoricalCost,287212,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToCapitalAssetsAtHistoricalCost,881,BuildingsAndImprovements,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToCapitalAssetsAtHistoricalCost,33900,Equipment,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToCapitalAssetsAtHistoricalCost,252431,Infrastructure,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToCapitalAssetsBeingDepreciatedGross,128660,BusinessTypeActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToCapitalAssetsBeingDepreciatedGross,128660,SewageSystem,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToCapitalAssetsBeingDepreciatedNet,263364,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToCapitalAssetsBeingDepreciatedNet,97573,BusinessTypeActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,AdditionsToCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization,263364,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,Assets,2108410,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,Assets,2006323,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,Assets,4114733,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,Assets,1340461,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,Assets,665862,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,Assets,2006323,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,AssetsModifiedAccrual,843081,GeneralFund,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,AssetsModifiedAccrual,180750,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,AssetsModifiedAccrual,1023831,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsAtHistoricalCost,911800,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsAtHistoricalCost,911800,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsAtHistoricalCost,425301,BuildingsAndImprovements,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsAtHistoricalCost,425301,BuildingsAndImprovements,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsAtHistoricalCost,137976,Equipment,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsAtHistoricalCost,137976,Equipment,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsAtHistoricalCost,348523,Infrastructure,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsAtHistoricalCost,348523,Infrastructure,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,1906218,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,1906218,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,424420,BuildingsAndImprovements,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,424420,BuildingsAndImprovements,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,109104,Equipment,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,109104,Equipment,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,96092,Infrastructure,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,96092,Infrastructure,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,629616,GovernmentalActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,629616,GovernmentalActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,1764094,SewageSystem,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,1764094,SewageSystem,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,1892754,SewageSystem,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,1892754,SewageSystem,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,13464,Equipment,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,13464,Equipment,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,13464,Equipment,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,13464,Equipment,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,1777558,BusinessTypeActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedGross,1777558,BusinessTypeActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CapitalAssetsBeingDepreciatedNet,449159,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,449159,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,449159,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CapitalAssetsBeingDepreciatedNet,320536,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,320536,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,320536,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CapitalAssetsBeingDepreciatedNet,769695,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,769695,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,769695,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CapitalAssetsBeingDepreciatedNet,280600,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,280600,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,280600,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CapitalAssetsBeingDepreciatedNet,39936,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,39936,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,39936,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CapitalAssetsBeingDepreciatedNet,320536,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,320536,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,320536,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CapitalAssetsBeingDepreciatedNet,189985,GovernmentalActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,189985,GovernmentalActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,189985,GovernmentalActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CapitalAssetsBeingDepreciatedNet,222963,BusinessTypeActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,222963,BusinessTypeActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsBeingDepreciatedNet,222963,BusinessTypeActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsNetOfAccumulatedDepreciationAndAmortization,463159,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsNetOfAccumulatedDepreciationAndAmortization,463159,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsNetOfAccumulatedDepreciationAndAmortization,203985,GovernmentalActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsNetOfAccumulatedDepreciationAndAmortization,203985,GovernmentalActivities,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CapitalAssetsNotBeingDepreciated,14000,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsNotBeingDepreciated,14000,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsNotBeingDepreciated,14000,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CapitalAssetsNotBeingDepreciated,14000,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsNotBeingDepreciated,14000,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsNotBeingDepreciated,14000,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CapitalAssetsNotBeingDepreciated,14000,Land,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CapitalAssetsNotBeingDepreciated,14000,Land,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsNotBeingDepreciated,14000,Land,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsNotBeingDepreciated,14000,Land,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CapitalAssetsNotBeingDepreciated,14000,Land,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CapitalAssetsNotBeingDepreciated,14000,Land,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsNotBeingDepreciated,14000,Land,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,CapitalAssetsNotBeingDepreciated,14000,Land,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CashAndCashEquivalents,954047,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CashAndCashEquivalents,1668461,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CashAndCashEquivalents,2622508,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CashAndCashEquivalents,1051688,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CashAndCashEquivalents,616773,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CashAndCashEquivalents,1668461,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,CashAndCashEquivalentsModifiedAccrual,788962,GeneralFund,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,CashAndCashEquivalentsModifiedAccrual,165085,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,CashAndCashEquivalentsModifiedAccrual,954047,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,1051688,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,1051688,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,1051688,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,616773,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,616773,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,616773,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,1668461,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,1668461,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,1668461,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,1057492,,,2017-04-01,2018-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,1057492,,,2017-04-01,2018-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,1057492,,,2017-04-01,2018-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,596710,,,2017-04-01,2018-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,596710,,,2017-04-01,2018-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,596710,,,2017-04-01,2018-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,1654202,ProprietaryFunds,,2017-04-01,2018-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,1654202,ProprietaryFunds,,2017-04-01,2018-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPerCashFlows,1654202,ProprietaryFunds,,2017-04-01,2018-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPeriodIncreaseDecrease,5804,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPeriodIncreaseDecrease,20063,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,CashAndCashEquivalentsPeriodIncreaseDecrease,14259,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,ChangesInNetPosition,116165,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,ChangesInNetPosition,234384,PrimaryGovernmentActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,ChangesInNetPosition,118219,BusinessTypeActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,ChargesForServices,112344,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,ChargesForServices,83943,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,ChargesForServices,196287,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ChargesForServicesAndSalesModifiedAccrual,2750,GeneralFund,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ChargesForServicesAndSalesModifiedAccrual,2750,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CurrentAssets,1023831,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CurrentAssets,1685787,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CurrentAssets,2709618,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CurrentAssets,1059861,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CurrentAssets,625926,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CurrentAssets,1685787,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CurrentLiabilities,23981,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CurrentLiabilities,26012,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,CurrentLiabilities,49993,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CurrentLiabilities,10763,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CurrentLiabilities,15249,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,CurrentLiabilities,26012,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,DepreciationExpense,6655,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,DepreciationExpense,6655,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,DepreciationExpense,6655,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,DepreciationExpense,24432,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,DepreciationExpense,24432,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,DepreciationExpense,24432,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,DepreciationExpense,31087,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,DepreciationExpense,31087,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,DepreciationExpense,31087,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,DueFromOtherFunds,28,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,DueFromOtherFunds,28,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,DueFromOtherFundsModifiedAccrual,28,GeneralFund,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,DueFromOtherFundsModifiedAccrual,28,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,DueFromOtherGovernmentModifiedAccrual,45183,GeneralFund,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,DueFromOtherGovernmentModifiedAccrual,10,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,DueFromOtherGovernmentModifiedAccrual,45193,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,DueFromOtherGovernments,45193,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,DueFromOtherGovernments,45193,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExcessDeficiencyOfRevenuesOverUnderExpenditures,121376,GeneralFund,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExcessDeficiencyOfRevenuesOverUnderExpenditures,4009,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExcessDeficiencyOfRevenuesOverUnderExpenditures,117367,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExpendituresForCommunityAndEconomicDevelopmentServicesModifiedAccrual,9589,GeneralFund,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExpendituresForCommunityAndEconomicDevelopmentServicesModifiedAccrual,9589,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExpendituresForGeneralGovernmentServicesAdministrationModifiedAccrual,229030,GeneralFund,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExpendituresForGeneralGovernmentServicesAdministrationModifiedAccrual,229030,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExpendituresForPublicSafetyServicesModifiedAccrual,127548,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExpendituresForPublicSafetyServicesModifiedAccrual,127548,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExpendituresForPublicWorksServicesModifiedAccrual,250878,GeneralFund,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExpendituresForPublicWorksServicesModifiedAccrual,250878,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExpendituresModifiedAccrual,509024,GeneralFund,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExpendituresModifiedAccrual,127548,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",ExpendituresModifiedAccrual,636572,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,Expenses,377398,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,Expenses,595653,PrimaryGovernmentActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,ExpensesForCommunityAndEconomicDevelopmentServices,9589,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,ExpensesForGeneralGovernmentServices,209853,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,ExpensesForProfessionalServices,109437,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,ExpensesForProfessionalServices,56970,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,ExpensesForProfessionalServices,166407,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,ExpensesForPublicSafetyServices,127548,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,ExpensesForPublicWorksServices,30408,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,ExpensesForSalariesAndBenefits,5255,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,ExpensesForSalariesAndBenefits,5255,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,ExpensesForSalariesAndBenefits,10510,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,ExpensesForServicesAndSupplies,298,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,ExpensesForServicesAndSupplies,553,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,ExpensesForServicesAndSupplies,851,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,ExpensesForWaterAndSewerSystems,218255,BusinessTypeActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,FundBalance,833105,GeneralFund,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",FundBalance,833105,GeneralFund,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",FundBalance,833105,GeneralFund,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,FundBalance,166745,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",FundBalance,166745,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",FundBalance,166745,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,FundBalance,999850,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",FundBalance,999850,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",FundBalance,999850,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,FundBalance,954481,GeneralFund,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",FundBalance,954481,GeneralFund,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",FundBalance,954481,GeneralFund,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,FundBalance,162736,,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",FundBalance,162736,,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",FundBalance,162736,,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,FundBalance,1117217,GovernmentalFunds,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",FundBalance,1117217,GovernmentalFunds,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",FundBalance,1117217,GovernmentalFunds,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,FundBalanceNonspendable,15655,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,FundBalanceNonspendable,15655,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,FundBalanceRestricted,151090,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,FundBalanceRestricted,151090,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,FundBalanceUnassigned,833105,GeneralFund,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,FundBalanceUnassigned,833105,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,GeneralRevenuesNet,482793,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,GeneralRevenuesNet,622980,PrimaryGovernmentActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,GeneralRevenuesNet,140187,BusinessTypeActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,GrantsContributionsAndDonationsFromStateGovernmentalEntities,194663,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,GrantsContributionsAndDonationsFromStateGovernmentalEntities,194663,PrimaryGovernmentActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",GrantsContributionsAndDonationsFromStateGovernmentalEntitiesModifiedAccrual,194663,GeneralFund,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",GrantsContributionsAndDonationsFromStateGovernmentalEntitiesModifiedAccrual,194663,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,IncomeLossBeforeCapitalContributions,126728,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,IncomeLossBeforeCapitalContributions,8509,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,IncomeLossBeforeCapitalContributions,118219,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,IncreaseDecreaseInAccountsPayable,4915,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,IncreaseDecreaseInAccountsPayable,6862,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,IncreaseDecreaseInAccountsPayable,1947,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,IncreaseDecreaseInAccountsReceivable,1044,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,IncreaseDecreaseInAccountsReceivable,3706,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,IncreaseDecreaseInAccountsReceivable,4750,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,IncreaseDecreaseInAccruedLiabilties,41,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,IncreaseDecreaseInAccruedLiabilties,41,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,IncreaseDecreaseInAccruedLiabilties,82,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,IncreaseDecreaseInDueFromOtherGovernments,228,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,IncreaseDecreaseInDueFromOtherGovernments,228,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,InvestmentIncome,13944,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,InvestmentIncome,21381,PrimaryGovernmentActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,InvestmentIncome,7437,BusinessTypeActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,InvestmentIncome,4735,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,InvestmentIncome,2702,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,InvestmentIncome,7437,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual,843081,GeneralFund,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual,180750,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,LiabilitiesAndDeferredInflowsOfResourcesAndFundBalancesModifiedAccrual,1023831,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,LiabilitiesModifiedAccrual,9976,GeneralFund,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,LiabilitiesModifiedAccrual,14005,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,LiabilitiesModifiedAccrual,23981,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,NetCashProvidedByUsedInInvestingActivities,137485,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,NetCashProvidedByUsedInInvestingActivities,2702,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,NetCashProvidedByUsedInInvestingActivities,140187,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,NetCashProvidedByUsedInOperatingActivities,14629,,,2017-04-01,2018-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,NetCashProvidedByUsedInOperatingActivities,17361,,,2017-04-01,2018-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,NetCashProvidedByUsedInOperatingActivities,2732,ProprietaryFunds,,2017-04-01,2018-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetExpenseRevenue,366628,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetExpenseRevenue,388596,PrimaryGovernmentActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetExpenseRevenue,21968,BusinessTypeActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetExpenseRevenueCommunityAndEconomicDevelopmentServices,2539,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetExpenseRevenueCommunityAndEconomicDevelopmentServices,2539,PrimaryGovernmentActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetExpenseRevenueForPublicSafetyServices,127548,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetExpenseRevenueForPublicSafetyServices,127548,PrimaryGovernmentActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetExpenseRevenueForPublicWorksServices,30408,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetExpenseRevenueForPublicWorksServices,30408,PrimaryGovernmentActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetExpenseRevenueGeneralGovernmentServices,206133,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetExpenseRevenueGeneralGovernmentServices,206133,PrimaryGovernmentActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetExpenseRevenueWaterAndSewerSystems,21968,PrimaryGovernmentActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetExpenseRevenueWaterAndSewerSystems,21968,BusinessTypeActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,NetInvestmentInCapitalAssets,463159,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,NetInvestmentInCapitalAssets,320536,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,NetInvestmentInCapitalAssets,783695,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,NetInvestmentInCapitalAssets,280600,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,NetInvestmentInCapitalAssets,39936,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,NetInvestmentInCapitalAssets,320536,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,NetPosition,2084429,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetPosition,2084429,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetPosition,2084429,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,NetPosition,1980311,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetPosition,1980311,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetPosition,1980311,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,NetPosition,4064740,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetPosition,4064740,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetPosition,4064740,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,NetPosition,1329698,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NetPosition,1329698,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NetPosition,1329698,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,NetPosition,650613,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NetPosition,650613,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NetPosition,650613,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,NetPosition,1980311,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NetPosition,1980311,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NetPosition,1980311,ProprietaryFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,NetPosition,1202970,,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NetPosition,1202970,,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NetPosition,1202970,,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,NetPosition,659122,,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NetPosition,659122,,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NetPosition,659122,,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,NetPosition,1862092,ProprietaryFunds,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NetPosition,1862092,ProprietaryFunds,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NetPosition,1862092,ProprietaryFunds,2018-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetPositionAtBeginningOfPeriodAfterAdjustments,1968264,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetPositionAtBeginningOfPeriodAfterAdjustments,1862092,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,NetPositionAtBeginningOfPeriodAfterAdjustments,3830356,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,NoncurrentAssets,1084579,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,NoncurrentAssets,320536,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,NoncurrentAssets,1405115,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NonoperatingRevenues,137485,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NonoperatingRevenues,2702,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,NonoperatingRevenues,140187,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,OperatingExpense,123101,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,OperatingExpense,95154,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,OperatingExpense,218255,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,OperatingIncomeLoss,10757,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,OperatingIncomeLoss,10757,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,OperatingIncomeLoss,11211,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,OperatingIncomeLoss,11211,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,OperatingIncomeLoss,21968,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,OperatingIncomeLoss,21968,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",OtherExpendituresModifiedAccrual,19527,GeneralFund,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",OtherExpendituresModifiedAccrual,19527,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,OtherGeneralRevenues,1533,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,OtherGeneralRevenues,131217,PrimaryGovernmentActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,OtherGeneralRevenues,132750,BusinessTypeActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,OtherNoncurrentAssets,459093,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,OtherNoncurrentAssets,459093,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,OtherNoncurrentAssets,162327,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,OtherNoncurrentAssets,162327,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,OtherNonoperatingRevenuesExpenses,132750,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,OtherNonoperatingRevenuesExpenses,132750,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,OtherOperatingExpenses,1456,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,OtherOperatingExpenses,1036,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,OtherOperatingExpenses,2492,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",OtherRevenuesModifiedAccrual,27829,GeneralFund,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",OtherRevenuesModifiedAccrual,27829,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,PaymentsToEmployees,5214,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,PaymentsToEmployees,5214,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,PaymentsToEmployees,10428,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,PaymentsToPurchaseCapitalAssets,128660,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,PaymentsToPurchaseCapitalAssets,128660,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,PaymentsToSuppliers,118053,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,PaymentsToSuppliers,60552,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,PaymentsToSuppliers,178605,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,PrepaidExpenses,15655,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,PrepaidExpenses,15655,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,PrepaidExpensesModifiedAccrual,15655,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Governmental Funds Balance Sheet,PrepaidExpensesModifiedAccrual,15655,GovernmentalFunds,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,ProceedsFomPaymentsForOtherCapitalAndFinancingRelatedActivities,132750,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,ProceedsFomPaymentsForOtherCapitalAndFinancingRelatedActivities,132750,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,ProceedsFromCustomers,108638,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,ProceedsFromCustomers,83127,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,ProceedsFromCustomers,191765,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,ProceedsFromInterestOnInvestments,4735,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,ProceedsFromInterestOnInvestments,2702,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Cash Flows,ProceedsFromInterestOnInvestments,7437,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,ProgramRevenues,3720,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,ProgramRevenues,7050,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,ProgramRevenues,203337,ProgramRevenuesFromChargesForServices,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,ProgramRevenues,3720,ProgramRevenuesFromOperatingGrantsAndContributions,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,ReductionsFromAccumulatedDepreciation,838,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,ReductionsFromAccumulatedDepreciation,838,Equipment,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,ReductionsFromCapitalAssetsAtHistoricalCost,5028,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,ReductionsFromCapitalAssetsAtHistoricalCost,5208,Equipment,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,ReductionsFromCapitalAssetsBeingDepreciatedNet,4190,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Capital Assets Footnote,ReductionsFromCapitalAssetsDepreciableNetOfAccumulatedDepreciationAndAmortization,4190,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,RepairAndMaintenance,6908,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Revenues Expenses,RepairAndMaintenance,6908,ProprietaryFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,RevenueForCommunityAndEconomicDevelopmentServices,7050,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,RevenueForGeneralGovernment,3720,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",RevenueFromInterestAndRentsModifiedAccrual,13419,GeneralFund,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",RevenueFromInterestAndRentsModifiedAccrual,525,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",RevenueFromInterestAndRentsModifiedAccrual,13944,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",RevenueFromLicensesAndPermitsAndFranchiseFeesModifiedAccrual,4300,GeneralFund,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",RevenueFromLicensesAndPermitsAndFranchiseFeesModifiedAccrual,4300,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,RevenueFromPropertyTax,275719,GovernmentalActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,RevenueFromPropertyTax,275719,PrimaryGovernmentActivities,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",RevenueFromTaxesModifiedAccrual,144687,GeneralFund,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",RevenueFromTaxesModifiedAccrual,131032,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",RevenueFromTaxesModifiedAccrual,275719,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Activities,RevenueUsedForWaterSupplyServices,196287,ProgramRevenuesFromChargesForServices,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",RevenuesModifiedAccrual,387648,GeneralFund,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",RevenuesModifiedAccrual,131557,,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,"Governmental Funds Revenues, Expenditures and Changes in Fund Balances",RevenuesModifiedAccrual,519205,GovernmentalFunds,,2018-04-01,2019-03-31
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,UnrestrictedNetPosition,1621270,GovernmentalActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,UnrestrictedNetPosition,1659775,BusinessTypeActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Statement of Net Position,UnrestrictedNetPosition,3281045,PrimaryGovernmentActivities,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,UnrestrictedNetPosition,1049098,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,UnrestrictedNetPosition,610677,,2019-03-31,,
+ects/Project-Src/ixbrl/upload/ACFR-XBRL-US-20190331-Annual-Accounts-1.htm,Proprietary Funds Net Position,UnrestrictedNetPosition,1659775,ProprietaryFunds,2019-03-31,,

@@ -1,9 +1,11 @@
+from importlib.resources import path
+from nturl2path import url2pathname
 import pandas as pd
 import sys
 from pandas import Series, DataFrame, Index
 from decimal import Decimal
 from ixbrl import XbrliDocument
-
+from main import filename
 # Taxonomy V1.0 Files
 # Use one of these as the command line argument when calling parse_acfr_ixbrl.py
 # ixbrl_files = ['https://xbrlus.github.io/acfr/samples/67/Ogemaw-20190930.htm', \
@@ -20,7 +22,7 @@ def display(text):
 
 fileloc = sys.argv[1]
 
-ixbrl_doc = XbrliDocument(url=fileloc)
+ixbrl_doc = XbrliDocument(path=fileloc)
 for context_obj in ixbrl_doc.contexts.values():
     dimension1 = dimension2 = dimension3 = memberstring1 = memberstring2 = memberstring3 = ''
     for index, explicitmember in enumerate(context_obj.explicit_members.values()):
