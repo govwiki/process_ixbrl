@@ -39,3 +39,6 @@ A RESTful web service that receives an Inline XBRL file which may have an HTM, H
     
 # Endpoint URL
     http://ec2-43-205-125-1.ap-south-1.compute.amazonaws.com:5000/file-upload
+
+# Demo Video
+    https://www.screencast.com/t/vCgydPNid
