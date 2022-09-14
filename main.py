@@ -1,15 +1,14 @@
-from asyncio import subprocess
 import os
 import string
 from unittest import result
 from urllib import response
 from app import app
 from flask import Flask, request, redirect, jsonify, send_from_directory
+from waitress import serve
 from werkzeug.utils import secure_filename
 from pathlib import Path
 from importlib.resources import path
 from fileinput import filename
-import subprocess 
 from weasyprint import HTML,CSS
 from io import StringIO  # Python3
 from importlib.resources import path
@@ -24,7 +23,7 @@ from ixbrl import XbrliDocument
 
 try:
 	ALLOWED_EXTENSIONS = set(['html','htm'])
-	baseDomain = 'http://localhost:5000/'
+	baseDomain = 'http://ec2-43-205-125-1.ap-south-1.compute.amazonaws.com:5000/'
 	uploadDirectory = 'upload/'
 	uploadDirectoryAbsolutePath = Path('upload').absolute()
  
@@ -43,34 +42,33 @@ try:
 		try:
 			# check if the post request has the file part
 			if 'file' not in request.files:
-				resp = jsonify({'message' : 'No file part in the request'})
+				resp = jsonify({'status':'error', 'message' : 'No file part in the request'})
 				resp.status_code = 400
 				return resp
 			file = request.files['file']
 			
 			
 			if file.filename == '':
-				resp = jsonify({'message' : 'No file selected for uploading'})
+				resp = jsonify({'status':'error', 'message' : 'No file selected for uploading'})
 				resp.status_code = 400
 				return resp
 			if file and allowed_file(file.filename):
 				# Save HTM file
 				htmlFileNameWithExt = secure_filename(file.filename)
 				htmlFileNameWithoutExt = os.path.splitext(os.path.basename(htmlFileNameWithExt))[0]
+				csvFileName = htmlFileNameWithoutExt+'.csv'
+				pdfFileName = htmlFileNameWithoutExt+'.pdf'
+				logFileName = htmlFileNameWithoutExt+'.txt'
 
 				file.save(os.path.join(uploadDirectoryAbsolutePath, htmlFileNameWithExt))
 				
 				# Veriify HTM file
 				htmlFileAbsolutePath=str(uploadDirectoryAbsolutePath)+"/"+htmlFileNameWithExt
-				finalCommand = 'python3 Arelle-master/arelleCmdLine.py -f "https://raw.githubusercontent.com/xbrlus/acfr/v1.0RC11/acfr_all_2021-05-01.xsd" -i '+htmlFileAbsolutePath+' -v'
+				logFileAbsolutePath=str(uploadDirectoryAbsolutePath)+"/"+logFileName
+				finalCommand = 'python3 Arelle-master/arelleCmdLine.py -f "https://raw.githubusercontent.com/xbrlus/acfr/v1.0RC11/acfr_all_2021-05-01.xsd" -i '+htmlFileAbsolutePath+' -v --logFile '+logFileAbsolutePath
 				print(finalCommand)
 				os.system(finalCommand)				
-				#output=subprocess.run([finalCommand],capture_output=True,text=True)
-				#print(output.stdout)
-				#print(output.stderr)	
-
-				#logFileName = htmlFileNameWithoutExt+'.txt'
-				#logFileAbsolutePath=str(uploadDirectoryAbsolutePath)+"/"+logFileName
+				
 				
 				# Save PDF file
 				pdfFileAbsolutePath=str(uploadDirectoryAbsolutePath)+"/"+htmlFileNameWithoutExt+'.pdf'
@@ -191,37 +189,29 @@ try:
 				csvFileAbsolutePath=str(uploadDirectoryAbsolutePath)+"/"+htmlFileNameWithoutExt+'.csv'
 				output.to_csv(csvFileAbsolutePath, index=False, columns=['document','Statement','itemname','value','memberstring1','instant','StartDate','EndDate'])
 				
-				csvFileName = htmlFileNameWithoutExt+'.csv'
-				pdfFileName = htmlFileNameWithoutExt+'.pdf'
-				logFileName = htmlFileNameWithoutExt+'.txt'
-
 				csvFileURL = baseDomain + uploadDirectory + csvFileName
 				pdfFileURL = baseDomain + uploadDirectory + pdfFileName
 				logFileURL = baseDomain + uploadDirectory + logFileName
 
-				resp = jsonify({'message' : 'File successfully uploaded', 'csv':csvFileURL, 'pdf':pdfFileURL, 'log':logFileURL})
-				resp.status_code = 201
+				resp = jsonify({'status':'success','message' : 'File successfully uploaded', 'data':{'csv':csvFileURL, 'pdf':pdfFileURL, 'log':logFileURL}})
+				resp.status_code = 200
 				
-				# logfile = subprocess.check_output([sys.executable, './main.py'])
-				# with open('upload/'+logFileName, 'wb') as outfile:
-				# 		outfile.write(logfile)
-
-		
 				return resp
 
 			else:
-				resp = jsonify({'message' : 'Allowed file types are html and htm'})
+				resp = jsonify({'status':'error', 'message' : 'Allowed file types are html and htm'})
 				resp.status_code = 400
 				return resp
 		except Exception as e:
-				resp = jsonify({'message' : 'Sorry exception occurs'})
+				resp = jsonify({'status':'error', 'message' : 'Sorry exception occurs'})
 				resp.status_code = 400
 				print(e)
 				return resp
 
 
 	if __name__ == "__main__":
-		app.run()
+		serve(app, host="0.0.0.0", port=5000)
+		#app.run(host='0.0.0.0', port=5000)
 
 except Exception as e:
 	print(e)
