@@ -9,3 +9,33 @@ A RESTful web service that receives an Inline XBRL file which may have an HTM, H
 5.  	PDF - Convert the Inline XBRL File to a PDF, store in on the server, and return it to the user. One library that can accomplish this is WeasyPrint (https://doc.courtbouillon.org/weasyprint/stable/) but there are several others.
 6.  	
 7.  	PARSE - Parse the file and output all tagged information as a CSV. Returned columns will include the item name, the value and some concepts derived from the contextRef that is provided in each of the document’s ix:nonFraction and ix:nonNumeric tags. 
+
+## Dependancies  
+- flask - Rest Framework  
+- Waitress - Production grade server  
+- arelle - xbrl open source library
+- weasyprint - PDF generation library
+- pandas - Python library
+
+## Ubuntu Server Setup Commands  
+### To setup the ubuntu server execute the below commands  
+    sudo apt-get upgrade  
+    sudo apt-get update  
+    sudo apt-get -y install python3-pip  
+    pip3 --version  
+    pip3 install Flask  
+    pip3 install Flask-Waitress  
+    pip3 install weasyprint  
+    sudo apt-get install libpangocairo-1.0-0  
+    pip3 install pandas  
+    pip3 install bs4  
+    pip3 install regex  
+    pip3 install lxml  
+    pip3 install isodate  
+    
+ # To run the project, execute below commands  
+    cd python  
+    nohup python3 main.py > log.txt 2>&1 &  
+    
+# Endpoint URL
+    http://ec2-43-205-125-1.ap-south-1.compute.amazonaws.com:5000/file-upload
