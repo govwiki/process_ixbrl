@@ -1,5 +1,7 @@
-from flask import Flask
 from pathlib import Path
+
+from flask import Flask
+
 uploadDirectoryAbsolutePath = Path('upload').absolute()
 UPLOAD_FOLDER = uploadDirectoryAbsolutePath
 

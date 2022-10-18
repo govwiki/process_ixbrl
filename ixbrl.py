@@ -11,10 +11,12 @@ Libraries
 - BeautifulSoup: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 '''
 
+import datetime
 import re
+
 import requests
 from bs4 import BeautifulSoup
-import datetime
+
 
 # ## iXBRL classes
 # A class for most iXBRL elements.
@@ -23,27 +25,28 @@ import datetime
 # 
 # At some point we may want to allow for writing out a pure XBRL document, in which case all elements will need an associated class that knows how to write itself out in XBRL.
 
-class Element:    
+class Element:
     def __init__(self, tag, doc):
         self.tag = tag
-        self.doc = doc   # This should be a weakref, but that wasn't working w/property, need to investigate.
-    
+        self.doc = doc  # This should be a weakref, but that wasn't working w/property, need to investigate.
+
     @property
     def name(self):
         # This is the iXBRL name attribute, not the BeautifulSoup tag name...
         return self.tag['name']
-     
+
     @property
     def string(self):
         return self.tag.string
-    
+
     @property
     def contextref(self):
         return self.tag['contextref']
-    
+
     @property
     def context(self):
         return self.doc.contexts[self.contextref]
+
 
 class IXHeader(Element):
     '''
@@ -57,6 +60,7 @@ class IXHeader(Element):
     Content: (ix:hidden? ix:references* ix:resources?)
     </ix:header>
     '''
+
     @property
     def contexts(self):
         contexts = []
@@ -65,21 +69,25 @@ class IXHeader(Element):
             contexts.append(context_class(tag, self.doc))
         return contexts
 
+
 class XBRLDIExplicitMember(Element):
     @property
     def dimension(self):
         return self.tag['dimension']
+
 
 class XBRLDItypedMember(Element):
     @property
     def dimension(self):
         return self.tag['dimension']
 
+
 class XBRLIContext(Element):
     '''
     The xbrli:context element MUST NOT have any descendant elements with a namespace name which has a 
     value of http://www.xbrl.org/2013/inlineXBRL.    
     '''
+
     @property
     def id(self):
         return self.tag['id']
@@ -93,12 +101,12 @@ class XBRLIContext(Element):
         try:
             return self._explicit_members
         except:
-            self._explicit_members = {}           
+            self._explicit_members = {}
             for member_tag in self.tag({'xbrldi:explicitmember'}):
                 member = XBRLDIExplicitMember(member_tag, self.doc)
                 self._explicit_members[member.string] = member
         return self._explicit_members
- 
+
     @property
     def typed_members(self):
         '''
@@ -108,7 +116,7 @@ class XBRLIContext(Element):
         try:
             return self._typed_members
         except:
-            self._typed_members = {}           
+            self._typed_members = {}
             for member_tag in self.tag({'xbrldi:typedMember'}):
                 member = XBRLDItypedMember(member_tag, self.doc)
                 self._typed_members[member.string] = member
@@ -147,7 +155,7 @@ class XBRLIContext(Element):
             return instant_tag.string
         else:
             return ''
-    
+
     @property
     def period(self):
         ''' Returns a datetime.date object representing the period specified for this element, or 1900-01-01 to support sorting by date. '''
@@ -158,12 +166,13 @@ class XBRLIContext(Element):
         except:
             # For now just returning the first instant we find.
             instances = self.tag({'xbrli:instant'})
-            
+
             if instances and instances[0].string:
                 self._period = datetime.date.fromisoformat(instances[0].string)
             else:
                 self._period = datetime.date.fromisoformat('1900-01-01')
             return self._period
+
 
 class IXContinuation(Element):
     '''
@@ -176,6 +185,7 @@ class IXContinuation(Element):
     '''
     pass
 
+
 class IXExclude(Element):
     '''
     The ix:exclude element is used to encapsulate data that is to be excluded from the processing of 
@@ -186,6 +196,7 @@ class IXExclude(Element):
     </ix:exclude>
     '''
     pass
+
 
 class IXFootnote(Element):
     '''
@@ -202,6 +213,7 @@ class IXFootnote(Element):
     </ix:footnote>
     '''
     pass
+
 
 class IXFraction(Element):
     '''
@@ -239,6 +251,7 @@ class IXDenominator(Element):
     '''
     pass
 
+
 class IXNumerator(Element):
     '''
     The ix:numerator element denotes an XBRL numerator element.
@@ -252,6 +265,7 @@ class IXNumerator(Element):
     '''
     pass
 
+
 class IXHidden(Element):
     '''
     The ix:hidden element is used to contain XBRL facts that are not to be displayed in the browser.
@@ -261,6 +275,7 @@ class IXHidden(Element):
     </ix:hidden>
     '''
     pass
+
 
 class IXNonFraction(Element):
     '''
@@ -285,10 +300,11 @@ class IXNonFraction(Element):
     Content: ( ix:nonFraction | any text node )
     </ix:nonFraction>
     '''
+
     @property
     def scale(self):
         return int(self.tag['scale'])
-    
+
     @property
     def sign(self):
         ''' Returns either 1 or -1, so the value can be multiplied by that amount. '''
@@ -298,18 +314,18 @@ class IXNonFraction(Element):
         except:
             pass
         return 1
-    
+
     @property
     def string(self):
         # Optional scale attribute will be 0, 3 or 6, number needs to be multiplied by 10 ** scale.
-        
+
         # Have to remove commas from the number (sigh).
         # A non-numeric value raises exception, we treat that case as a zero (often it's a dash character).
         try:
             number = int(self.tag.string.replace(',', '')) * self.sign
         except:
             return '0'
-        
+
         try:
             # In an exception handler in case there is no scale.
             multiplier = 10 ** self.scale
@@ -317,6 +333,7 @@ class IXNonFraction(Element):
         except:
             pass
         return str(number)
+
 
 class IXNonNumeric(Element):
     '''
@@ -339,6 +356,7 @@ class IXNonNumeric(Element):
     '''
     pass
 
+
 class IXReferences(Element):
     '''
     The ix:references element is used to contain reference elements which are required by a given Target Document.
@@ -352,6 +370,7 @@ class IXReferences(Element):
     </ix:references>
     '''
     pass
+
 
 class IXRelationship(Element):
     '''
@@ -367,6 +386,7 @@ class IXRelationship(Element):
     '''
     pass
 
+
 class IXResources(Element):
     '''
     The ix:resources element is used to contain resource elements which are required by one or more Target Documents.
@@ -376,6 +396,7 @@ class IXResources(Element):
     </ix:resources>
     '''
     pass
+
 
 class IXTuple(Element):
     '''
@@ -394,6 +415,7 @@ class IXTuple(Element):
     </ix:tuple>
     '''
     pass
+
 
 # Global that correlates tag names with the class representing that tag.
 element_classes = {
@@ -414,6 +436,7 @@ element_classes = {
     'xbrli:context': XBRLIContext
 }
 
+
 class Criterion:
     ''' Represents the requirements for a column in the spreadsheet.
 
@@ -424,39 +447,41 @@ class Criterion:
         The list of required members are the required context values, such as:
         
             us-cafr:GovernmentalActivitiesMember us-cafr:NetMember
-    '''    
-    def __init__(self, name, required_members = []):
+    '''
+
+    def __init__(self, name, required_members=[]):
         self.name = name
         self.required_members = required_members
-    
+
     def __str__(self):
         return f"{self.name} ({' '.join(self.required_members)})"
-    
+
     def __repr__(self):
         return self.__str__()
-    
+
     def matches_element(self, element):
         try:
             if element.name != self.name:
                 return False
         except:
             return False
-        
+
         # Fails if no formal context definition was provided, in which case we just try to match the contextref attribute.
         try:
             context_members = element.context.explicit_members
         except:
             context_members = [element.tag['contextref']]
-            
+
         for member in self.required_members:
             if member not in context_members:
                 return False
         return True
 
+
 class XbrliDocument:
-    def __init__(self, path = None, url = None):
+    def __init__(self, path=None, url=None):
         if path:
-            with open(path,'r', encoding='latin1') as source:
+            with open(path, 'r', encoding='latin1') as source:
                 try:
                     html = source.read()
                 except Exception as e:
@@ -470,12 +495,12 @@ class XbrliDocument:
                 raise e
         else:
             raise Exception("Need a path or url argument!")
-        
+
         self.path = path
 
         soup = BeautifulSoup(html, 'html.parser')
         self.ix_elements = [element_classes[tag.name](tag, self) for tag in soup.find_all({re.compile(r'^ix:')})]
-                
+
     @property
     def header(self):
         ''' The header element for the document. '''
@@ -483,14 +508,14 @@ class XbrliDocument:
         for element in self.ix_elements:
             if isinstance(element, IXHeader):
                 return element
-        
+
     @property
     def contexts(self):
         # Contexts will be accessed frequently, so storing them.
         try:
             return self._contexts
         except:
-            self._contexts = {}   # context id: element
+            self._contexts = {}  # context id: element
             for context in self.header.contexts:
                 self._contexts[context.id] = context
         return self._contexts
