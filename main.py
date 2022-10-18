@@ -54,7 +54,7 @@ try:
                 # Veriify HTM file
                 htmlFileAbsolutePath = str(uploadDirectoryAbsolutePath) + "/" + htmlFileNameWithExt
                 logFileAbsolutePath = str(uploadDirectoryAbsolutePath) + "/" + logFileName
-                finalCommand = 'python3 Arelle-master/arelleCmdLine.py -f "https://raw.githubusercontent.com/xbrlus/acfr/v1.0RC11/acfr_all_2021-05-01.xsd" -i ' + htmlFileAbsolutePath + ' -v --logFile ' + logFileAbsolutePath
+                finalCommand = 'python3 Arelle/arelleCmdLine.py -f "https://raw.githubusercontent.com/xbrlus/acfr/v1.0RC11/acfr_all_2021-05-01.xsd" -i ' + htmlFileAbsolutePath + ' -v --logFile ' + logFileAbsolutePath
                 print(finalCommand)
                 os.system(finalCommand)
 
