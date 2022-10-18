@@ -17,6 +17,11 @@ A RESTful web service that receives an Inline XBRL file which may have an HTM, H
 - weasyprint - PDF generation library
 - pandas - Python library
 
+## Clone this repository
+
+`Arelle` is a Git submodule. A regular `git clone` is not enough to retrieve
+the submodule files. Use `git clone --recurse-submodules` instead.
+
 ## Ubuntu Server Setup Commands  
 ### To setup the ubuntu server execute the below commands  
     sudo apt-get upgrade  
