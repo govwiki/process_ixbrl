@@ -32,4 +32,3 @@ weasyprint==56.1
 webencodings==0.5.1
 Werkzeug==2.2.2
 zopfli==0.2.1
-git+https://github.com/Arelle/Arelle.git@f23b8cdd2581f9c09e408e0c8ad48af55ad34ddd#egg=arelle-release
