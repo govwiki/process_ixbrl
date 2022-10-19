@@ -8,9 +8,9 @@ A RESTful web service that receives an Inline XBRL file which may have an HTM, H
 4.  	
 5.  	PDF - Convert the Inline XBRL File to a PDF, store in on the server, and return it to the user. One library that can accomplish this is WeasyPrint (https://doc.courtbouillon.org/weasyprint/stable/) but there are several others.
 6.  	
-7.  	PARSE - Parse the file and output all tagged information as a CSV. Returned columns will include the item name, the value and some concepts derived from the contextRef that is provided in each of the document’s ix:nonFraction and ix:nonNumeric tags. 
+7.  	CSV - Parse the file and output all tagged information as a CSV. Returned columns will include the item name, the value and some concepts derived from the contextRef that is provided in each of the document’s ix:nonFraction and ix:nonNumeric tags. 
 
-## Dependancies  
+## Dependencies  
 - flask - Rest Framework  
 - Waitress - Production grade server  
 - arelle - xbrl open source library
