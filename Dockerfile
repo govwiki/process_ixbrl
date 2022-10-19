@@ -6,10 +6,6 @@ FROM python:3.10.4-alpine3.16
 # Install `build-base` which is needed to build `pip` packages
 RUN apk add --no-cache build-base
 
-# Set Flask environment variables
-ENV FLASK_APP=app.py
-ENV FLASK_RUN_HOST=0.0.0.0
-
 # Set the working directory
 WORKDIR /app
 
@@ -22,6 +18,10 @@ COPY . .
 
 # Expose port 5000 (internal port)
 EXPOSE 5000
+
+# Set Flask environment variables
+ENV FLASK_APP=app.py
+ENV FLASK_RUN_HOST=0.0.0.0
 
 # Run the Flask app
 CMD ["flask", "run"]
