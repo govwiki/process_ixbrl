@@ -207,6 +207,9 @@ def upload_file():
             output = output[['document', 'itemname', 'value', 'dimension1', 'memberstring1',
                              'dimension2', 'memberstring2', 'instant', 'StartDate', 'EndDate']]
 
+            # Drop duplicates again (this time with the new set of columns)
+            output.drop_duplicates(keep='first', inplace=True)
+
             csvFileAbsolutePath = str(uploadDirectoryAbsolutePath) + "/" + htmlFileNameWithoutExt + '.csv'
             output.to_csv(csvFileAbsolutePath, index=False,
                           columns=['document', 'Statement', 'itemname', 'value', 'memberstring1', 'instant',
