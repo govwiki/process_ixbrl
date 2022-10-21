@@ -27,5 +27,8 @@ EXPOSE 5000
 ENV FLASK_APP=main.py
 ENV FLASK_RUN_HOST=0.0.0.0
 
+# Create `upload/`
+RUN mkdir -p upload
+
 # Run the Flask app
 CMD ["flask", "run"]
