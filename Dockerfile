@@ -15,7 +15,7 @@ WORKDIR /app
 
 # Install the requirements
 COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
+RUN --mount=type=cache,mode=0755,target=/root/.cache/pip pip install -r requirements.txt
 
 # Copy project files to `app/`
 COPY . .
