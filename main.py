@@ -211,9 +211,7 @@ def upload_file():
             output.drop_duplicates(keep='first', inplace=True)
 
             csvFileAbsolutePath = str(uploadDirectoryAbsolutePath) + "/" + htmlFileNameWithoutExt + '.csv'
-            output.to_csv(csvFileAbsolutePath, index=False,
-                          columns=['document', 'Statement', 'itemname', 'value', 'memberstring1', 'instant',
-                                   'StartDate', 'EndDate'])
+            output.to_csv(csvFileAbsolutePath, index=False)
 
             csvFileURL = baseDomain + uploadDirectory + csvFileName
             pdfFileURL = baseDomain + uploadDirectory + pdfFileName
