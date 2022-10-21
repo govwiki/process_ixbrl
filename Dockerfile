@@ -6,6 +6,10 @@ FROM python:3.10.4-alpine3.16
 # Install `build-base` which is needed to build `pip` packages
 RUN apk add --no-cache build-base
 
+# Install the required packages for `weasyprint`
+# Source: https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#alpine-3-12
+RUN apk add --no-cache py3-pip py3-pillow py3-cffi py3-brotli gcc musl-dev python3-dev pango
+
 # Set the working directory
 WORKDIR /app
 
