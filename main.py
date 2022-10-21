@@ -12,7 +12,10 @@ from app import app
 from ixbrl import XbrliDocument
 
 ALLOWED_EXTENSIONS = set(['html', 'htm'])
-baseDomain = 'http://ec2-43-205-125-1.ap-south-1.compute.amazonaws.com:5000/'
+try:
+    baseDomain = os.environ['BASE_DOMAIN']
+except KeyError:
+    baseDomain = 'http://ec2-43-205-125-1.ap-south-1.compute.amazonaws.com:5000/'
 uploadDirectory = 'upload/'
 uploadDirectoryAbsolutePath = Path('upload').absolute()
 
