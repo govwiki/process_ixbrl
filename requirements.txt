@@ -12,6 +12,7 @@ html5lib==1.1
 idna==3.4
 isodate==0.6.1
 itsdangerous==2.1.2
+ixbrlparse==0.4.2
 Jinja2==3.1.2
 lxml==4.9.1
 MarkupSafe==2.1.1
@@ -33,4 +34,5 @@ waitress==2.1.2
 weasyprint==56.1
 webencodings==0.5.1
 Werkzeug==2.2.2
+word2number==1.1
 zopfli==0.2.1
