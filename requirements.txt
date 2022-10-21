@@ -10,6 +10,7 @@ Flask-Waitress==0.0.1
 fonttools==4.37.4
 html5lib==1.1
 idna==3.4
+isodate==0.6.1
 itsdangerous==2.1.2
 Jinja2==3.1.2
 lxml==4.9.1
