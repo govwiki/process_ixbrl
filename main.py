@@ -203,6 +203,10 @@ def upload_file():
             output = output.loc[
                 output['StatementAndMember1'] != 'Proprietary Funds Cash Flows|ComponentUnitDiscretelyPresented']
 
+            # Keep certain columns only
+            output = output[['document', 'itemname', 'value', 'dimension1', 'memberstring1',
+                             'dimension2', 'memberstring2', 'instant', 'StartDate', 'EndDate']]
+
             csvFileAbsolutePath = str(uploadDirectoryAbsolutePath) + "/" + htmlFileNameWithoutExt + '.csv'
             output.to_csv(csvFileAbsolutePath, index=False,
                           columns=['document', 'Statement', 'itemname', 'value', 'memberstring1', 'instant',
