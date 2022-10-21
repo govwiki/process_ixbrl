@@ -5,6 +5,7 @@ import pandas as pd
 from flask import request, jsonify, send_from_directory
 from waitress import serve
 from weasyprint import HTML, CSS
+from ixbrlparse import IXBRL
 from werkzeug.utils import secure_filename
 
 from app import app
@@ -74,29 +75,44 @@ def upload_file():
                 return text.replace('acfr:', '').replace('Axis', '').replace('Member', '')
 
             ixbrlDoc = XbrliDocument(path=htmlFileAbsolutePath)
-            for contextObj in ixbrlDoc.contexts.values():
+
+            with open(htmlFileAbsolutePath, encoding="us-ascii") as html_to_parse_file:
+                parsed_ixbrl = IXBRL(html_to_parse_file)
+
+            for contextObj in parsed_ixbrl.contexts.values():
                 dimension1 = dimension2 = dimension3 = memberstring1 = memberstring2 = memberstring3 = ''
-                for index, explicitmember in enumerate(contextObj.explicit_members.values()):
-                    if index == 0:
-                        dimension1 = display(explicitmember.dimension)
-                        memberstring1 = display(explicitmember.string)
-                    if index == 1:
-                        dimension2 = display(explicitmember.dimension)
-                        memberstring2 = display(explicitmember.string)
-                    if index == 2:
-                        dimension3 = display(explicitmember.dimension)
-                        memberstring3 = display(explicitmember.string)
                 tdimension1 = tdimension2 = tdimension3 = tmemberstring1 = tmemberstring2 = tmemberstring3 = ''
-                for index, typedmember in enumerate(contextObj.typed_members.values()):
-                    if index == 0:
-                        tdimension1 = display(typedmember.dimension)
-                        tmemberstring1 = display(typedmember.string)
-                    if index == 1:
-                        tdimension2 = display(typedmember.dimension)
-                        tmemberstring2 = display(typedmember.string)
-                    if index == 2:
-                        tdimension3 = display(typedmember.dimension)
-                        tmemberstring3 = display(typedmember.string)
+                if contextObj.segments:
+                    for index, member in enumerate(contextObj.segments):
+                        if member['tag'] == 'explicitmember':
+                            explicitmember = member
+                            if index == 0:
+                                dimension1 = display(explicitmember['dimension'])
+                                memberstring1 = display(explicitmember['value'])
+                            if index == 1:
+                                dimension2 = display(explicitmember['dimension'])
+                                memberstring2 = display(explicitmember['value'])
+                            if index == 2:
+                                dimension3 = display(explicitmember['dimension'])
+                                memberstring3 = display(explicitmember['value'])
+
+                        if member['tag'] == "typedmember":
+                            typedmember = member
+                            if index == 0:
+                                tdimension1 = display(typedmember['dimension'])
+                                tmemberstring1 = display(typedmember['value'])
+                            if index == 1:
+                                tdimension2 = display(typedmember['dimension'])
+                                tmemberstring2 = display(typedmember['value'])
+                            if index == 2:
+                                tdimension3 = display(typedmember['dimension'])
+                                tmemberstring3 = display(typedmember['value'])
+
+                if not dimension1 or not dimension1.strip():
+                    dimension1 = tdimension1
+                if not memberstring1 or not memberstring1.strip():
+                    memberstring1 = tmemberstring1
+
                 context = context.append({'contextref': contextObj.id,
                                           'dimension1': dimension1,
                                           'memberstring1': memberstring1,
@@ -111,8 +127,8 @@ def upload_file():
                                           'tdimension3': tdimension3,
                                           'tmemberstring3': tmemberstring3,
                                           'instant': contextObj.instant,
-                                          'StartDate': contextObj.start_date,
-                                          'EndDate': contextObj.end_date}, ignore_index=True)
+                                          'StartDate': contextObj.startdate,
+                                          'EndDate': contextObj.enddate}, ignore_index=True)
 
             # context = pd.concat([context, pd.Series([contextObj.id,
             # 							dimension1,
@@ -133,8 +149,9 @@ def upload_file():
 
             for ix_element in ixbrlDoc.ix_elements:
                 if ix_element.tag.name.startswith('ix:non'):
+                    document_name = os.path.basename(htmlFileAbsolutePath)
                     ixdata = ixdata.append(
-                        {'document': htmlFileAbsolutePath[41:],  # Replace with NameOfGovernment When Available
+                        {'document': document_name,  # Replace with NameOfGovernment When Available
                          'itemname': display(ix_element.name),
                          'contextref': ix_element.contextref,
                          'value': ix_element.string}, ignore_index=True)
@@ -186,10 +203,15 @@ def upload_file():
             output = output.loc[
                 output['StatementAndMember1'] != 'Proprietary Funds Cash Flows|ComponentUnitDiscretelyPresented']
 
+            # Keep certain columns only
+            output = output[['document', 'itemname', 'value', 'dimension1', 'memberstring1',
+                             'dimension2', 'memberstring2', 'instant', 'StartDate', 'EndDate']]
+
+            # Drop duplicates again (this time with the new set of columns)
+            output.drop_duplicates(keep='first', inplace=True)
+
             csvFileAbsolutePath = str(uploadDirectoryAbsolutePath) + "/" + htmlFileNameWithoutExt + '.csv'
-            output.to_csv(csvFileAbsolutePath, index=False,
-                          columns=['document', 'Statement', 'itemname', 'value', 'memberstring1', 'instant',
-                                   'StartDate', 'EndDate'])
+            output.to_csv(csvFileAbsolutePath, index=False)
 
             csvFileURL = baseDomain + uploadDirectory + csvFileName
             pdfFileURL = baseDomain + uploadDirectory + pdfFileName
