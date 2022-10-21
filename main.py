@@ -149,8 +149,9 @@ def upload_file():
 
             for ix_element in ixbrlDoc.ix_elements:
                 if ix_element.tag.name.startswith('ix:non'):
+                    document_name = os.path.basename(htmlFileAbsolutePath)
                     ixdata = ixdata.append(
-                        {'document': htmlFileAbsolutePath[41:],  # Replace with NameOfGovernment When Available
+                        {'document': document_name,  # Replace with NameOfGovernment When Available
                          'itemname': display(ix_element.name),
                          'contextref': ix_element.contextref,
                          'value': ix_element.string}, ignore_index=True)
