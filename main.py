@@ -107,6 +107,12 @@ def upload_file():
                             if index == 2:
                                 tdimension3 = display(typedmember['dimension'])
                                 tmemberstring3 = display(typedmember['value'])
+
+                if not dimension1 or not dimension1.strip():
+                    dimension1 = tdimension1
+                if not memberstring1 or not memberstring1.strip():
+                    memberstring1 = tmemberstring1
+
                 context = context.append({'contextref': contextObj.id,
                                           'dimension1': dimension1,
                                           'memberstring1': memberstring1,
