@@ -112,8 +112,8 @@ def upload_file():
                                           'tdimension3': tdimension3,
                                           'tmemberstring3': tmemberstring3,
                                           'instant': contextObj.instant,
-                                          'StartDate': contextObj.start_date,
-                                          'EndDate': contextObj.end_date}, ignore_index=True)
+                                          'StartDate': contextObj.startdate,
+                                          'EndDate': contextObj.enddate}, ignore_index=True)
 
             # context = pd.concat([context, pd.Series([contextObj.id,
             # 							dimension1,
