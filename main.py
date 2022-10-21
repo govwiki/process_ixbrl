@@ -5,6 +5,7 @@ import pandas as pd
 from flask import request, jsonify, send_from_directory
 from waitress import serve
 from weasyprint import HTML, CSS
+from ixbrlparse import IXBRL
 from werkzeug.utils import secure_filename
 
 from app import app
