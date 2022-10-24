@@ -1,7 +1,9 @@
+import copy
 import os
 from pathlib import Path
 
 import pandas as pd
+from bs4 import BeautifulSoup
 from flask import request, jsonify, send_from_directory
 from waitress import serve
 from weasyprint import HTML, CSS
@@ -28,6 +30,86 @@ def allowed_file(filename):
 def static_dir(path):
     print(path)
     return send_from_directory("upload", path)
+
+
+def add_page_breaks(html_file_absolute_path: str) -> str:
+    # Open and parse the HTML file
+    # TODO: Detect file encoding as it may be different
+    with open(html_file_absolute_path, encoding="us-ascii") as html_to_parse_file:
+        soup = BeautifulSoup(html_to_parse_file, 'html.parser')
+
+    # Save the last page that contains "Reconciliation of Operating Income (Loss)
+    # to Net Cash Provided (Used) by Operating Activities" table
+    last_page = copy.copy(soup)
+
+    # Delete the first div that contains the financial tables
+    last_page.find('div', id=lambda x: x and x.startswith('t_ft_')).decompose()
+
+    # Get a list of the two main divs (the first contains the financial
+    # tables and the second contains the table saved in `last_page`)
+    all_divs = soup.find_all('div', id=lambda x: x and x.startswith('t_ft_'))
+
+    # Delete the table already saved in `last_page`
+    all_divs[1].decompose()
+
+    # Get all trs in the first div (containing the similar financial tables)
+    # The HTML file contains one <table> that contains all the trs of all
+    # the tables (not a standard way of using an HTML <table>).
+    all_trs = all_divs[0].find_all('tr')
+
+    # This variable saves each block of trs that contains rows related
+    # to a single financial table.
+    all_blocks_of_trs = []
+
+    # An empty list that will save the next block of trs
+    new_block_of_trs = []
+    for tr in all_trs:
+        # Use the tds that contain the word "COUNTY" as a separator
+        if tr.find(lambda x: x.name == "td" and "COUNTY" in x.text):
+            # Each time we find the word "COUNTY", we append the previous
+            # block of trs and start a new one.
+            # We need to check the length of the list because the first
+            # block will be empty when the first row contains the word
+            # "COUNTY".
+            if len(new_block_of_trs) > 0:
+                all_blocks_of_trs.append(new_block_of_trs)
+            new_block_of_trs = []
+
+        # In both cases (either starting a new block or continuing in the
+        # same block), we need to append the current tr.
+        new_block_of_trs.append(tr)
+
+    # Each page contains the whole HTML markup but with
+    # altered trs (only the trs related to the current
+    # financial table should be left).
+    all_pages = []
+    for block_of_trs in all_blocks_of_trs:
+        # We clone the original BeautifulSoup object for each
+        # new page.
+        new_page = copy.copy(soup)
+
+        # `tbody` is the tag that contains all the trs. It should be
+        # first cleared.
+        tbody_element = new_page.find('div', id=lambda x: x and x.startswith('t_ft_')).find('tbody')
+        tbody_element.clear()
+
+        # We assign the current block of trs to the `tbody`
+        tbody_element.contents = block_of_trs
+
+        # We append the current page
+        all_pages.append(new_page
+                         .find('div', id=lambda x: x and x.startswith('t_ft_'))
+                         .prettify())
+
+    # The last page is special because its table is not
+    # included with the first financial tables (inspect the HTML input
+    # to understand the difference).
+    all_pages.append(last_page
+                     .find('div', id=lambda x: x and x.startswith('t_ft_'))
+                     .prettify())
+
+    # Join all the pages
+    return '\n'.join(all_pages)
 
 
 @app.route('/file-upload', methods=['POST'])
@@ -61,10 +143,13 @@ def upload_file():
             print(finalCommand)
             os.system(finalCommand)
 
+            # This makes `weasyprint` add each financial table in a different page
+            html_with_page_breaks = add_page_breaks(htmlFileAbsolutePath)
+
             # Save PDF file
             pdfFileAbsolutePath = str(uploadDirectoryAbsolutePath) + "/" + htmlFileNameWithoutExt + '.pdf'
-            css = CSS(string=''' @page {size: A1; margin: 0in 0.44in 0.2in 0.44in;} ''')
-            HTML(htmlFileAbsolutePath).write_pdf(pdfFileAbsolutePath, stylesheets=[css])
+            css = CSS(string=''' @page {size: letter landscape; margin: 0.2in 0.1in;} ''')
+            HTML(string=html_with_page_breaks).write_pdf(pdfFileAbsolutePath, stylesheets=[css])
 
             # Geenerate CSV file
             context = pd.DataFrame(
