@@ -19,6 +19,10 @@ RUN apk add --no-cache py3-pip py3-pillow py3-cffi py3-brotli gcc musl-dev pytho
 # Set the working directory
 WORKDIR /app
 
+# Install `git` as it is needed by `pip` to install
+# the requirements (for drkane's `ixbrlparse` fork).
+RUN apk add --no-cache git
+
 # Install the requirements
 COPY requirements.txt requirements.txt
 RUN --mount=type=cache,mode=0755,target=/root/.cache/pip pip install -r requirements.txt
