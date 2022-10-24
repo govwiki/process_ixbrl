@@ -52,6 +52,9 @@ def add_page_breaks(html_file_absolute_path: str) -> str:
     # Delete the table already saved in `last_page`
     all_divs[1].decompose()
 
+    # Delete `colgroup` tag because it forces the columns width
+    all_divs[0].find('colgroup').decompose()
+
     # Get all trs in the first div (containing the similar financial tables)
     # The HTML file contains one <table> that contains all the trs of all
     # the tables (not a standard way of using an HTML <table>).
@@ -145,6 +148,19 @@ def upload_file():
 
             # This makes `weasyprint` add each financial table in a different page
             html_with_page_breaks = add_page_breaks(htmlFileAbsolutePath)
+
+            # Use a smaller font size (because some tables do not fit horizontally)
+            html_with_page_breaks = html_with_page_breaks.replace('font-size: 8pt;', 'font-size: 6pt;')
+
+            # Use a smaller row height (because some tables do not fit vertically)
+            html_with_page_breaks = html_with_page_breaks.replace('height: 12px;', 'height: 11px;')
+
+            # Make the first column width 50px smaller (it has a lot of empty space)
+            html_with_page_breaks = html_with_page_breaks.replace('width: 325.469px;', 'width: 255.469px;')
+
+            # 780pt is the original table width (1038 in px)
+            # Make it 50px smaller (otherwise the first column width will stay the same)
+            html_with_page_breaks = html_with_page_breaks.replace('width: 780pt;', 'width: 988px;')
 
             # Save PDF file
             pdfFileAbsolutePath = str(uploadDirectoryAbsolutePath) + "/" + htmlFileNameWithoutExt + '.pdf'
