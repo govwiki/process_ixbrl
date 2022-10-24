@@ -8,14 +8,30 @@ A RESTful web service that receives an Inline XBRL file which may have an HTM, H
 4.  	
 5.  	PDF - Convert the Inline XBRL File to a PDF, store in on the server, and return it to the user. One library that can accomplish this is WeasyPrint (https://doc.courtbouillon.org/weasyprint/stable/) but there are several others.
 6.  	
-7.  	PARSE - Parse the file and output all tagged information as a CSV. Returned columns will include the item name, the value and some concepts derived from the contextRef that is provided in each of the document’s ix:nonFraction and ix:nonNumeric tags. 
+7.  	CSV - Parse the file and output all tagged information as a CSV. Returned columns will include the item name, the value and some concepts derived from the contextRef that is provided in each of the document’s ix:nonFraction and ix:nonNumeric tags. 
 
-## Dependancies  
+## Dependencies  
 - flask - Rest Framework  
 - Waitress - Production grade server  
 - arelle - xbrl open source library
 - weasyprint - PDF generation library
 - pandas - Python library
+
+## Clone this repository
+
+`Arelle` is a Git submodule. A regular `git clone` is not enough to retrieve
+the submodule files. Use `git clone --recurse-submodules` instead.
+
+# Docker
+
+You need to make sure that Git submodules were downloaded before running
+`docker compose up`.
+
+## Run with Docker Compose
+
+```
+DOCKER_BUILDKIT=1 BASE_DOMAIN="http://localhost" docker compose up
+```
 
 ## Ubuntu Server Setup Commands  
 ### To setup the ubuntu server execute the below commands  

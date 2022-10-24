@@ -1,0 +1,4 @@
+**/.git/
+venv/
+upload/
+__pycache__/
