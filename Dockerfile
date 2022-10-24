@@ -3,6 +3,12 @@
 # Use Python 3.10.4 base image
 FROM python:3.10.4-alpine3.16
 
+# Get the base domain
+ARG BASE_DOMAIN
+
+# Set the base domain
+ENV BASE_DOMAIN="${BASE_DOMAIN}"
+
 # Install `build-base` which is needed to build `pip` packages
 RUN apk add --no-cache build-base
 
