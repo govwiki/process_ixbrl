@@ -30,7 +30,7 @@ You need to make sure that Git submodules were downloaded before running
 ## Run with Docker Compose
 
 ```
-DOCKER_BUILDKIT=1 BASE_DOMAIN="http://localhost:8000" docker compose up
+DOCKER_BUILDKIT=1 BASE_DOMAIN="http://localhost" docker compose up
 ```
 
 ## Ubuntu Server Setup Commands  

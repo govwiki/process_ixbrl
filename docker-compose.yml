@@ -6,4 +6,4 @@ services:
       args:
         - BASE_DOMAIN=${BASE_DOMAIN}
     ports:
-      - "8000:5000"
+      - "80:5000"
