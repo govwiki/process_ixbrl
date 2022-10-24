@@ -141,7 +141,7 @@ def upload_file():
             logFileAbsolutePath = str(uploadDirectoryAbsolutePath) + "/" + logFileName
             finalCommand = 'python3 Arelle/arelleCmdLine.py -f "https://raw.githubusercontent.com/xbrlus/acfr/v1.0RC11/acfr_all_2021-05-01.xsd" -i ' + htmlFileAbsolutePath + ' -v --logFile ' + logFileAbsolutePath
             print(finalCommand)
-            os.system(finalCommand)
+            # os.system(finalCommand)
 
             # This makes `weasyprint` add each financial table in a different page
             html_with_page_breaks = add_page_breaks(htmlFileAbsolutePath)
