@@ -301,9 +301,9 @@ def upload_file():
             csvFileAbsolutePath = str(uploadDirectoryAbsolutePath) + "/" + htmlFileNameWithoutExt + '.csv'
             output.to_csv(csvFileAbsolutePath, index=False)
 
-            csvFileURL = baseDomain + uploadDirectory + csvFileName
-            pdfFileURL = baseDomain + uploadDirectory + pdfFileName
-            logFileURL = baseDomain + uploadDirectory + logFileName
+            csvFileURL = baseDomain.rstrip('/') + '/' + uploadDirectory + csvFileName
+            pdfFileURL = baseDomain.rstrip('/') + '/' + uploadDirectory + pdfFileName
+            logFileURL = baseDomain.rstrip('/') + '/' + uploadDirectory + logFileName
 
             resp = jsonify({'status': 'success', 'message': 'File successfully uploaded',
                             'data': {'csv': csvFileURL, 'pdf': pdfFileURL, 'log': logFileURL}})
