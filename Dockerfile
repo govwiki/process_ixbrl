@@ -16,6 +16,9 @@ RUN apk add --no-cache build-base
 # Source: https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#alpine-3-12
 RUN apk add --no-cache py3-pip py3-pillow py3-cffi py3-brotli gcc musl-dev python3-dev pango
 
+# Install `fontconfig` (required by `weasyprint`)
+RUN apk --no-cache add fontconfig ttf-freefont font-noto terminus-font
+
 # Set the working directory
 WORKDIR /app
 
