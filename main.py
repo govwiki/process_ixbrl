@@ -148,7 +148,7 @@ def upload_file():
 
             # Save PDF file
             pdfFileAbsolutePath = str(uploadDirectoryAbsolutePath) + "/" + htmlFileNameWithoutExt + '.pdf'
-            css = CSS(string=''' @page {size: letter landscape; margin: 0.2in 0.1in;} ''')
+            css = CSS(string=''' @page {size: letter landscape; margin: 0.2in 0.05in;} ''')
             HTML(string=html_with_page_breaks).write_pdf(pdfFileAbsolutePath, stylesheets=[css])
 
             # Geenerate CSV file
