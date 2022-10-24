@@ -17,7 +17,7 @@ ALLOWED_EXTENSIONS = set(['html', 'htm'])
 try:
     baseDomain = os.environ['BASE_DOMAIN']
 except KeyError:
-    baseDomain = 'http://ec2-43-205-125-1.ap-south-1.compute.amazonaws.com:5000/'
+    baseDomain = 'http://localhost:5000/'
 uploadDirectory = 'upload/'
 uploadDirectoryAbsolutePath = Path('upload').absolute()
 
