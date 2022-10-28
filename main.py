@@ -308,8 +308,7 @@ def upload_file():
                 output['StatementAndMember1'] != 'Proprietary Funds Cash Flows|ComponentUnitDiscretelyPresented']
 
             # Keep certain columns only
-            output = output[['document', 'itemname', 'value', 'dimension1', 'memberstring1',
-                             'dimension2', 'memberstring2', 'instant', 'StartDate', 'EndDate']]
+            output = output[['document', 'StatementAndMember1', 'itemname', 'dimension1', 'memberstring1', 'dimension2', 'memberstring2', 'instant', 'StartDate', 'EndDate', 'value']]
 
             # Drop duplicates again (this time with the new set of columns)
             output.drop_duplicates(keep='first', inplace=True)
