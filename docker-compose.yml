@@ -7,3 +7,5 @@ services:
         - BASE_DOMAIN=${BASE_DOMAIN}
     ports:
       - "80:5000"
+    volumes:
+      - ./upload:/app/upload
